@@ -1,0 +1,19 @@
+<md-toolbar ng-show="!showSearch" class="md-whiteframe-2dp">
+  <div class="md-toolbar-tools navbar" layout="row" layout-align="space-between center">
+    <md-button ng-click="vm.openFilter()" aria-label="Left Menu" ng-hide="vm.hideLeftMenu" hide-gt-md>
+      <ng-md-icon icon="menu"></ng-md-icon>
+    </md-button>
+    <h3 ng-if="!search.show"><a ui-sref="/">Users Management</a></h3>
+
+    <!--<div flex ng-show="!search.show"></div>-->
+
+    <!--Search icon on mobile device-->
+
+
+
+
+
+
+ <top-menu ng-if="!search.show"></top-menu>
+  </div>
+</md-toolbar>
